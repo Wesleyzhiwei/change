@@ -91,5 +91,14 @@ Children:
   - Name: Text
     Type: BaseDataVariableType
     DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{NodeId:ns=7;g=696a2add-3563-760d-3b94-21625bcf5081}"
+  - Name: LeftMargin
+    Type: BaseVariableType
+    DataType: Size
     ModellingRule: Optional
-    Value: {"LocaleId":"en-US","Text":"Label1"}
+    Value: 200.0
